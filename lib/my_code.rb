@@ -22,11 +22,19 @@ def map_to_double(source_array)
     double = []
   source_index = 0
   while source_index < source_array.length do
-    negative << source_array[source_index] * 
+    double << source_array[source_index] * 2
     source_index += 1
   end
   double
 end
 
 def map_to_square(source_array)
+      square = []
+  source_index = 0
+  while source_index < source_array.length do
+    square << source_array[source_index] * source_array[source_index]
+    source_index += 1
+  end
+  square
+  
 end
