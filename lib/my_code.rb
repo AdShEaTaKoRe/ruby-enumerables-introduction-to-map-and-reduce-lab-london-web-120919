@@ -36,5 +36,4 @@ def map_to_square(source_array)
     source_index += 1
   end
   square
-  
 end
